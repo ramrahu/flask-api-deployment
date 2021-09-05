@@ -10,7 +10,7 @@ from nltk.stem import PorterStemmer
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# nltk.download('stopwords')
+nltk.download('stopwords')
 ps = PorterStemmer()
 
 
